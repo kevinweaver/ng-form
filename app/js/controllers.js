@@ -3,7 +3,7 @@
 /* Controllers */
 
 angular.module('myApp.controllers', []).
-  controller('MyCtrl1', [function() {
+  controller('userForm', [function() {
 
   }])
   .controller('MyCtrl2', [function() {

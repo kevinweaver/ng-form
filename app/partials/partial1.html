@@ -1,1 +1,9 @@
-<p>This is the partial for view 1.</p>
+<h1>Search Body Parts</h2>
+<input id="query" type="text" ng-model="query"/>
+<select id="order" ng-model="order"/>
+  <option value="name">Alphabetical</option>
+  <option value="location">Location</option>
+<ul>
+  <li ng-repeat="body-part in body-parts">
+    {{body-part.name}}
+  </li>
